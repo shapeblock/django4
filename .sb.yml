@@ -25,3 +25,5 @@ workers:
   celery: {}
   celerybeat: {}
 
+predeploy:
+  migrate: {}
