@@ -92,6 +92,4 @@ In development, it is often nice to be able to see emails that are being sent fr
 
 Now you have your own mail server running locally, ready to receive whatever you send it.
 
-## Deployment
 
-The following details how to deploy this application.
