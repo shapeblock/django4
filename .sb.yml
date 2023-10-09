@@ -1,0 +1,23 @@
+type: 'python'
+
+services:
+  db1:
+    type: 'postgresql'
+    size: 2Gi
+    backup: false
+  cache:
+    type: 'redis'
+  
+resources:
+  cpu: "1"
+  memory: "1Gi"
+
+
+envs:  
+  DJANGO_SECRET_KEY: "uz!$0&59^!n2!(cg153h(6edt#&@#b^yktezs45=fp-(votmy+"
+  DJANGO_ADMIN_URL: "admin-sb/"
+
+workers:
+  celery:
+  celerybeat:
+
