@@ -20,6 +20,7 @@ envs:
   DJANGO_ADMIN_URL: "admin-sb/"
   CELERY_BROKER_URL: "redis://:shapeblock@univ-python-0910-10-33-redis-master:6379/0"
   DJANGO_SETTINGS_MODULE: "config.settings.production"
+  DJANGO_ALLOWED_HOSTS: "*"
 
 workers:
   celery: {}
